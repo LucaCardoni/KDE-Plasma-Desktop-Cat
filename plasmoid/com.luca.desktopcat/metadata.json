@@ -1,0 +1,25 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "luca@localhost",
+                "Name": "Luca"
+            }
+        ],
+        "Category": "Fun & Games",
+        "Description": "A desktop cat for your panel. Click for a speech bubble, feed and pet it.",
+        "EnabledByDefault": true,
+        "Icon": "preferences-desktop-plasma",
+        "Id": "com.luca.desktopcat",
+        "License": "GPL-3.0",
+        "Name": "Desktop Cat",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.1.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

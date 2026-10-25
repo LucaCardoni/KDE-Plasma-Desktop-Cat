@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="petName" type="String">
+      <label>Pet name</label>
+      <default>Tom</default>
+    </entry>
+    <entry name="catScale" type="Double">
+      <label>Cat size (multiplier of panel height)</label>
+      <default>1.0</default>
+    </entry>
+    <entry name="stretchToFill" type="Bool">
+      <label>Stretch applet to fill available panel space</label>
+      <default>false</default>
+    </entry>
+    <entry name="extraPadding" type="Int">
+      <label>Extra horizontal padding (px)</label>
+      <default>12</default>
+    </entry>
+    <entry name="animationSpeed" type="Double">
+      <label>Animation speed multiplier</label>
+      <default>1.0</default>
+    </entry>
+    <entry name="idleInterval" type="Int">
+      <label>Idle change interval (ms)</label>
+      <default>4000</default>
+    </entry>
+    <entry name="spacerFactor" type="Double">
+      <label>Spacer share (fraction of a full spacer to claim)</label>
+      <default>0.55</default>
+    </entry>
+    <entry name="tightCrop" type="Bool">
+      <label>Crop empty space around the cat</label>
+      <default>true</default>
+    </entry>
+    <entry name="hungerDecay" type="Int">
+      <label>Food decay per idle tick</label>
+      <default>2</default>
+    </entry>
+    <entry name="energyDecay" type="Int">
+      <label>Energy decay per idle tick</label>
+      <default>3</default>
+    </entry>
+    <entry name="happinessDecay" type="Int">
+      <label>Happiness decay per idle tick</label>
+      <default>2</default>
+    </entry>
+    <entry name="feedAmount" type="Int">
+      <label>Food restored by feeding</label>
+      <default>35</default>
+    </entry>
+    <entry name="playBoost" type="Int">
+      <label>Happiness gained by playing / petting</label>
+      <default>20</default>
+    </entry>
+    <entry name="playCost" type="Int">
+      <label>Energy + food cost of playing</label>
+      <default>12</default>
+    </entry>
+    <entry name="sleepRate" type="Int">
+      <label>Energy recovered per tick while sleeping</label>
+      <default>6</default>
+    </entry>
+    <entry name="wanderChance" type="Int">
+      <label>Chance to start wandering each idle tick (%)</label>
+      <default>35</default>
+    </entry>
+    <entry name="roamWidth" type="Double">
+      <label>How much of the strip the cat roams (fraction)</label>
+      <default>0.84</default>
+    </entry>
+    <entry name="strollSpeed" type="Double">
+      <label>Stroll speed multiplier</label>
+      <default>1.0</default>
+    </entry>
+  </group>
+</kcfg>
